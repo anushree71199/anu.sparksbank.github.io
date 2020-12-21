@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spark Bank</title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+.mainHeader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.mainHeader .active{
+box-sizing: border;
+border: 4px solid #000;
+padding: 15px;
+color: #000;
+padding: 10px 45px;
+text-align: center;
+font-size: 14px;
+color: #fff;
+border: none;
+background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+border-radius: 10px;}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;	
+}
+.menubtn{
+	margin-right: 60px;
+}
+main{	width: 100%;
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+}
+main .right-sec{
+padding-right: 70px;
+}
+main .left-sec{
+padding-left: 100px;
+}
+.left-sec h2{
+font-size: 20px;
+text-transform: capitalize;
+font-weight: lighter;
+color: #242424;
+margin-top: 100px;
+margin-bottom: 15px;
+}
+.left-sec h1{
+font-size: 55px;
+text-transform: capitalize;
+font-weight: 700;
+margin: 15px 0;
+}
+.left-sec p{
+margin-bottom: 20px;
+}
+.left-sec button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+
+.right-sec img {
+    width: 600px;
+    height: 500px;
+	margin-right: 70px;
+	margin-top: 30px;
+	border-bottom: 5px solid transparent;
+	border-radius: 100px;
+	margin-left: 20px;
+	}
+	.left-sec .animate__fadeInLeftBig{
+    animation-duration: 3s;
+	}	
+		.left-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+	}	
+</style>
+<body onload="loader()">
+<header class="Header">
+	<div class="mainHeader">
+  		<nav >			  
+			<a href="index.html" class="active">Home</a>
+			<a href="viewallcustomers.html">View All Customers</a>
+			<a href="moneytrans.html">Money Transaction</a>
+		</nav>
+		<div class="menubtn">
+			<button>Help?</button>
+		</div>
+	</div>
+	<main>
+		<section class="left-sec">
+			<h2 class="animate_animated animate__fadeInLeftBig">We are here for you</h2>
+			<h1 class="animate_animated animate__fadeInRightBig py-3" >Spark's Bank</h1>
+			<p class="animate_animated animate__fadeInLeftBig"><i>©️This website is designed by Anushree Chatterjee as a part of Web Development Design Internship Provided by @The Sparks Foundation</i></p>
+		</section>
+		<section class="right-sec">
+			<figure>
+				<img src="img2.png" width="500px" height="300px">
+			</figure>
+		</section>
+	</main>
+</header>
+
+</body>
+</html>
